@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap");
+body {
+  background: linear-gradient(#191a24, #2f2439);
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  font-family: "Red Hat Text", sans-serif;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+body .background-image-stars {
+  position: absolute;
+  width: 100%;
+}
+body .background-image-mountains {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+body p {
+  font-size: 14px;
+  left: 0;
+  width: 100%;
+}
+body h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+  font-size: 18px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 120px;
+}
+body #main {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  width: 48%;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 265px;
+}
+body #main .timer {
+  width: 150px;
+  height: 150px;
+}
+body #main .timer .background-timer {
+  background-color: #1a1823;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+body #main .timer .background-timer .contain-timer {
+  border-radius: 10px;
+  height: 93%;
+  width: 100%;
+  position: relative;
+}
+body #main .timer .background-timer .contain-timer .contain-top-bottom {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+body #main .timer .background-timer .contain-timer .contain-top-bottom .top-timer {
+  width: 100%;
+  height: 50%;
+  background-color: #343650ba;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  border-bottom: none;
+}
+body #main .timer .background-timer .contain-timer .contain-top-bottom .top-timer .time {
+  text-align: center;
+  margin: auto;
+  color: #fb6087ad;
+  font-size: 75px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+body #main .timer .background-timer .contain-timer .contain-top-bottom .bottom-timer {
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  background-color: #343650;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+  border-top: none;
+}
+body #main .timer .background-timer .contain-timer .contain-top-bottom .bottom-timer .time {
+  text-align: center;
+  margin: auto;
+  color: #fb6087;
+  font-size: 75px;
+  font-weight: 600;
+  margin-top: -50px;
+}
+body #main .timer .background-timer .contain-timer .contain-time {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+body #main .timer .background-timer .contain-timer .contain-time .time {
+  position: absolute;
+  text-align: center;
+  bottom: 20%;
+  margin: 0;
+  color: #fb6087;
+  font-size: 60px;
+  font-weight: 600;
+}
+body #main .timer .background-timer .contain-timer .contain-line {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+body #main .timer .background-timer .contain-timer .contain-line .line {
+  margin: auto;
+  width: 100%;
+  height: 0.2px;
+}
+body #main .timer .background-timer .contain-timer .contain-line .circle-left, body #main .timer .background-timer .contain-timer .contain-line .circle-right {
+  height: 18px;
+  width: 18px;
+  background-color: #1e1f29;
+  border-radius: 50%;
+  position: absolute;
+}
+body #main .timer .background-timer .contain-timer .contain-line .circle-left {
+  left: -10px;
+}
+body #main .timer .background-timer .contain-timer .contain-line .circle-right {
+  right: -10px;
+}
+body #main .timer .name-timer {
+  text-transform: uppercase;
+  color: #8486a9;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+body footer {
+  position: absolute;
+  bottom: 60px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+body footer a {
+  margin: 20px;
+}
+body footer a svg {
+  fill: #8486a9;
+}
+body footer a:hover svg {
+  fill: #fb6087;
+}
+
+@media (min-width: 501px) and (max-width: 1024px) {
+  body .background-image-mountains {
+    position: absolute;
+    right: 0;
+    width: auto;
+    bottom: 0;
+  }
+  body #main {
+    width: 85%;
+  }
+}
+@media (min-width: 0px) and (max-width: 420px) {
+  body .background-image-mountains {
+    position: absolute;
+    right: 0;
+    width: auto;
+    bottom: 0;
+  }
+  body #main {
+    width: 95%;
+  }
+  body #main .timer {
+    width: 75px;
+    height: 68px;
+  }
+  body #main .timer .background-timer .contain-timer .contain-top-bottom .top-timer .time {
+    font-size: 40px;
+    margin-top: 7px;
+  }
+  body #main .timer .background-timer .contain-timer .contain-top-bottom .bottom-timer .time {
+    font-size: 40px;
+    margin-top: -25px;
+  }
+  body #main .timer .name-timer {
+    font-size: 7px;
+    letter-spacing: 3px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

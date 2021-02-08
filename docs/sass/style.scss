@@ -1,0 +1,195 @@
+@import './utilisties/colors.scss';
+@import './utilisties/font.scss';
+
+body {
+    
+    background: linear-gradient($veryDarkMostlyBlackBlue, #2f2439);
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    font-family: $redHatText;
+    overflow: hidden;
+    background-repeat: no-repeat;
+
+    .background-image-stars {
+        position: absolute;
+        width: 100%;
+    }
+    .background-image-mountains {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+
+    }
+    p {
+        font-size: 14px;
+        left: 0;
+        width: 100%;
+
+    }
+
+    h1 {
+        text-align: center;
+        color: $white;
+        text-transform: uppercase;
+        letter-spacing: 9px;
+        font-size: 18px;
+        position: absolute;
+        left: 0;
+        right: 0;
+    
+        top: 120px;
+    }
+
+    #main {
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        width: 48%;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 265px;
+        .timer {
+            width: 150px;
+            height: 150px;
+            .background-timer {
+                background-color: #1a1823;
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+                .contain-timer {
+                    border-radius: 10px;
+                    height: 93%;
+                    width: 100%;
+                    position: relative;
+                    .contain-top-bottom {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .contain-top-bottom .top-timer {
+                        width: 100%;
+                        height: 50%;
+                        background-color: #343650ba;
+                        border-radius: 10px 10px 0 0;
+                        overflow: hidden;
+                        border-bottom: none;
+                        .time {
+                            text-align: center;
+                            margin: auto;
+                            color: #fb6087ad;
+                            font-size: 75px;
+                            font-weight: 600;
+                            margin-top: 20px;
+                        }
+                    }
+                    .contain-top-bottom .bottom-timer {
+                        bottom: 0;
+                        width: 100%;
+                        height: 50%;
+                        background-color: $darkDesaturatedBlue ;
+                        border-radius: 0 0 10px 10px;
+                        overflow: hidden;
+                        border-top: none;
+                        .time {
+                            text-align: center;
+                            margin: auto;
+                            color: $softRed;
+                            font-size: 75px;
+                            font-weight: 600;
+                            margin-top: -50px;
+                        }
+
+                    }
+                    .contain-time {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .contain-time .time {
+                        position: absolute;
+                        text-align: center;
+                        bottom: 20%;
+                        margin: 0;
+                        color: $softRed;
+                        font-size: 60px;
+                        font-weight: 600;
+                    }
+                    .contain-line {
+                        position: relative;
+                        height: 100%;
+                        width: 100%;
+                        display: flex;
+                        overflow: hidden;
+                        align-items: center;
+                        .line {
+                            margin: auto;
+                            width: 100%;
+                            height: 0.2px;
+                        }
+                        .circle-left, .circle-right {
+                            height: 18px;
+                            width: 18px;
+                            background-color: $veryDarkBlue;
+                            border-radius: 50%;
+                            position: absolute;
+                        }
+                        .circle-left {
+                            left: -10px;
+                        }
+                        .circle-right {
+                            right: -10px;
+                        }
+                    }
+                }
+            }
+            .name-timer {
+                text-transform: uppercase;
+                color: $grayishBlue;
+                font-size: 14px;
+                text-align: center;
+                letter-spacing: 5px;
+            }
+        }
+        .days {
+
+        }
+        .hours{
+
+        }
+        .minutes{
+
+        }
+        .seconds{
+
+        }
+    }
+
+    footer {
+        position: absolute;
+        bottom: 60px;
+        margin: auto;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        a {
+            margin: 20px;
+            svg {
+                fill: $grayishBlue; 
+             } 
+            &:hover {
+                svg {
+                    fill: $softRed;
+                }
+          
+            }
+        }
+    
+    }
+}
+
+@import './responsive/responsive.scss';
