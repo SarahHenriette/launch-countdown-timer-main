@@ -37,7 +37,7 @@ body #main {
   height: auto;
   display: flex;
   justify-content: space-around;
-  width: 48%;
+  width: 688px;
   margin: auto;
   position: absolute;
   left: 0;
@@ -46,7 +46,7 @@ body #main {
   top: 265px;
 }
 body #main .timer {
-  width: 150px;
+  width: 148px;
   height: 150px;
 }
 body #main .timer .background-timer {
@@ -74,7 +74,7 @@ body #main .timer .background-timer .contain-timer .contain-top-bottom .top-time
   overflow: hidden;
   border-bottom: none;
 }
-body #main .timer .background-timer .contain-timer .contain-top-bottom .top-timer .time {
+body #main .timer .background-timer .contain-timer .contain-top-bottom .top-timer .time, body #main .timer .background-timer .contain-timer .contain-top-bottom .top-timer .days {
   text-align: center;
   margin: auto;
   color: #fb6087ad;
@@ -91,7 +91,7 @@ body #main .timer .background-timer .contain-timer .contain-top-bottom .bottom-t
   overflow: hidden;
   border-top: none;
 }
-body #main .timer .background-timer .contain-timer .contain-top-bottom .bottom-timer .time {
+body #main .timer .background-timer .contain-timer .contain-top-bottom .bottom-timer .time, body #main .timer .background-timer .contain-timer .contain-top-bottom .bottom-timer .days {
   text-align: center;
   margin: auto;
   color: #fb6087;
