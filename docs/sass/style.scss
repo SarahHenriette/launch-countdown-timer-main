@@ -33,12 +33,11 @@ body {
         color: $white;
         text-transform: uppercase;
         letter-spacing: 9px;
-        font-size: 18px;
+        font-size: 22px;
         position: absolute;
         left: 0;
         right: 0;
-    
-        top: 120px;
+        top: 132px;
     }
 
     #main {
@@ -161,14 +160,14 @@ body {
 
     footer {
         position: absolute;
-        bottom: 60px;
+        bottom: 72px;
         margin: auto;
         left: 0;
         right: 0;
         display: flex;
         justify-content: center;
         a {
-            margin: 20px;
+            margin: 0 20px;
             svg {
                 fill: $grayishBlue; 
              } 

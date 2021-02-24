@@ -27,11 +27,11 @@ body h1 {
   color: white;
   text-transform: uppercase;
   letter-spacing: 9px;
-  font-size: 18px;
+  font-size: 22px;
   position: absolute;
   left: 0;
   right: 0;
-  top: 120px;
+  top: 132px;
 }
 body #main {
   height: auto;
@@ -148,7 +148,7 @@ body #main .timer .name-timer {
 }
 body footer {
   position: absolute;
-  bottom: 60px;
+  bottom: 72px;
   margin: auto;
   left: 0;
   right: 0;
@@ -156,7 +156,7 @@ body footer {
   justify-content: center;
 }
 body footer a {
-  margin: 20px;
+  margin: 0 20px;
 }
 body footer a svg {
   fill: #8486a9;
