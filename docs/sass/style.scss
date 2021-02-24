@@ -168,15 +168,6 @@ body {
         justify-content: center;
         a {
             margin: 0 20px;
-            svg {
-                fill: $grayishBlue; 
-             } 
-            &:hover {
-                svg {
-                    fill: $softRed;
-                }
-          
-            }
         }
     
     }
