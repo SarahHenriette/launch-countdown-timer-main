@@ -7,7 +7,7 @@ let containSeconds = document.querySelectorAll('.contain-seconds .seconds')
 
 // Update the count down every 1 second
 var x = setInterval(function() {
-    var countDownDate = new Date('11 March 2021 14:48 UTC').getTime();
+    var countDownDate = new Date('31 December 2023 00:01 UTC').getTime();
 
     // Get today's date and time
     var now = new Date().getTime();
